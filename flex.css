@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+body{
+    background: #eee;
+}
+.wrapper{
+    margin:  150px 550px ;
+}
+.flex-container{
+    display: flex;
+    display: block;
+}
+.box{
+    height: 250px;
+    min-width: 500px;
+    background: url(summary.jpg);
+    background-size: cover;
+}
+.btn{
+    font-size: 250%;
+    color:whitesmoke;
+    padding: 15px 30px;
+    border-radius: 20px;  
+    margin: 35px 0px;
+    background-color: rgb(5, 1, 250);
+}
+.ons{
+    font-size: 40px;
+    text-align: center;
+}
+.you{
+    text-align: center;
+    font-size: larger;
+}
+.cor{
+    font-size: 200%;
+    border-width: 0px;
+    color: gray;
+}
+.middle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.shi{
+    text-align: center;
+    align-items: center;
+}
+.cancel{
+    text-decoration: underline;
+    color: blue;
+    border-width: 0px;
+}
